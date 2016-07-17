@@ -5,11 +5,11 @@
   - credentials/ create credentials  
   (keytool/SHA not needed)
 
-2) Add API key to manifest
-    "<meta-data
+2) Add API key to manifest in meta-data before the end of application
+    
             android:name="com.google.android.geo.API_KEY"
             android:value="AIz...."/>"
-    before "</application>"            
+    
     
 3) Import google play services   
   in build.gradle:
